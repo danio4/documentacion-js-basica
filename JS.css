@@ -1,0 +1,159 @@
+body {
+	font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	line-height: 1.4;
+	color: #FFFFFF;
+	background: #121212;
+	min-width: 320px;
+}
+#main-doc {
+	margin: 25px 0 20px 0
+}
+.main-section {
+	margin: 0 20px 0 300px;
+}
+#navbar {
+	position: fixed;
+	line-height: 1.5;
+	border-right: 1px solid #2B2E2E;
+	top: 0;
+	left: 0;
+	height: 100vw;
+	width: 300px;
+}
+#navbar ul {
+	list-style: none;
+	margin-right: auto;
+	padding: 0;
+}
+#navbar li {
+	position: relative;
+	width: 100%;
+	line-height: 1.5;
+	padding: 0;
+}
+li {
+	padding-bottom: 15px;
+}
+ul {
+	padding-left: 50px;
+}
+.nav-link {
+	padding: 10px 20px;
+	position: relative;
+	border-top: 1px solid;
+	display: block;
+	text-decoration: none;
+	list-style: none;
+	color: #BCBDC3;
+	padding: 10px 30px;
+}
+#navbar header {
+	font-size: 1.8em;
+	text-align: center;
+	margin: 10px 10px;
+}
+header {
+	font-size: 1.8em;
+	margin-left: 30px;
+	font-weight: 400;
+}
+article {
+	font-size: 0.97em;
+	margin: 0 10px 0 45px;
+	color: #BCBDC3;
+}
+.diferent {
+	margin-left: 45px;
+}
+code {
+	display: block;
+	font-family: monospace;
+	padding: 15px 15px;
+	margin: 10px 10px;
+	background: #212121;
+	border-radius: 5px;
+	line-height: 2;
+	white-space: pre-line;
+}
+.top {
+	display: none;
+}
+@media (max-width: 730px) {
+	#main-doc {
+		position: relative;
+		margin: 0;
+		left: 0;
+		padding: 20px 20px;
+	}
+	#navbar {
+		position: relative;
+		height: 265px;
+		width: 100%;
+		border: none;
+		z-index: 1;
+	}
+	#navbar header {
+		font-size: 1.5em;
+	}
+	#navbar ul {
+		height: 220px;
+		right: 0;
+		left: 0;
+		align-items: center;
+		padding: 0;
+		overflow: auto;
+		border: solid #2B2E2E;
+	}
+	#navbar li {
+		width: 100%;
+	}
+	article {
+		font-size: 0.97em;
+		margin: 20px 20px;
+		color: #BCBDC3;
+	}
+	header {
+		margin: 30px 0 0 10px;
+	}
+	.main-section {
+		margin: 0;
+	}
+	body {
+		margin: 0;
+	}
+	.top {
+		display: flex;
+		position: fixed;
+		top: 0;
+		right: 0;
+		font-size: 2em;
+		margin: 0 10px 0 0;
+		font-weight: bolder;
+		text-decoration: none;
+		color: #BCBDC3;
+	}
+	.diferent {
+		margin-left: 25px;
+	}
+}
+@media (max-width: 400px) {
+	code {
+		margin: 0;
+		padding: 5px;
+	}
+	article {
+		margin: 0;
+	}
+	header {
+		margin: 25px 0 0 1px;
+	}
+	ul {
+		padding-left: 35px;
+	}
+	p {
+		margin-left: 10px;
+	}
+	.diferent {
+		margin-left: 10px;
+	}
+}
